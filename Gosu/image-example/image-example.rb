@@ -6,6 +6,7 @@ class ImageExample < Gosu::Window
 		self.caption = "Image Example"
 		@ball = Gosu::Image.new("./ball.png")
 	end
+	
 	def draw
 		@ball.draw( 100, 100, 0 )
 	end
