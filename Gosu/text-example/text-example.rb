@@ -13,4 +13,4 @@ class TextExample < Gosu::Window
 	end
 end
 
-window = ImageExample.new.show
+window = TextExample.new.show
