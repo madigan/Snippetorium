@@ -5,7 +5,7 @@ class TextExample < Gosu::Window
 		super 640, 480
 		self.caption = "Text Example"
 
-		@font = Gosu::Font.new(32, name: "Nimbus Mono L")
+		@font = Gosu::Font.new(32, name: "Nimbus Doggo L")
     end
 
 	def draw
