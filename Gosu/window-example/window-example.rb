@@ -7,4 +7,4 @@ class GameWindow < Gosu::Window
 	end
 end
 
-window = GameWindow.new.show
+GameWindow.new.show
